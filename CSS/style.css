@@ -180,6 +180,7 @@ section h3 {
   font-size: 1.6rem;
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Skills */
@@ -407,4 +408,13 @@ p {
 }
 .services-group:hover {
   background: #505050;
+}
+/* fotter bottom */
+.fotter-bottom p {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  background: #202020;
+  padding: 1rem;
+  font-weight: lighter;
 }
