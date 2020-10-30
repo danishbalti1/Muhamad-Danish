@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dani Balti | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/projects.css">
+    <link rel="stylesheet" href="mobile.css" />
+
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <div class="menu-btn">
+      <img src="Images/menu.png" />
+    </div>
+    <header>
+      <nav class="main-nav">
+        <a href="./index.html" class="logo">Dani Balti</a>
+        <ul class="nav-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html">About</a></li>
+          <li  class="active-navbar"><a href="./projects.html">Projects</a></li>
+          <li><a href="./index.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="project-heading">
+      <h1>My Projects</h1>
+      <div class="project-container">
+       
+        </div>
+      </div>
+    </section>
+    
+    <script>
+      document
+        .querySelector(".menu-btn")
+        .addEventListener("click", () =>
+          document.querySelector(".nav-menu").classList.toggle("show")
+        );
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>

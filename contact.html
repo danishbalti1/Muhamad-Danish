@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dani Balti | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <div class="menu-btn">
+      <img src="Images/menu.png" />
+    </div>
+    <header>
+      <nav class="main-nav">
+        <a href="./index.html" class="logo">Dani Balti</a>
+        <ul class="nav-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./index.html">Services</a></li>
+          <li class="active-navbar"><a href="#Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="contact">
+      <h1>Contact <span class="desig">Me!</span></h1>
+
+      <div class="section-container">
+        <form action="">
+          <div class="input-group">
+            <label for="Name">Name:</label>
+            <input type="text" id="text" />
+          </div>
+          <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="input-group">
+            <label for="Name">Message:</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="input-group">
+            <button type="sumit" class="btn">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      document
+        .querySelector(".menu-btn")
+        .addEventListener("click", () =>
+          document.querySelector(".nav-menu").classList.toggle("show")
+        );
+    </script>
+  </body>
+</html>
