@@ -51,7 +51,7 @@
 
   /* Home Section */
   .home-container {
-    margin-left: 0.5rem;
+    margin-left: 2.5rem;
     width: 100%;
   }
   .home-container h1 {
@@ -62,9 +62,11 @@
     flex-direction: column;
   }
   .about-container .about-img {
-    margin-top: 2rem;
-    width: 120%;
-    margin-right: 3rem;
+    display: none;
+  }
+  .about-section h3 {
+    padding-bottom: 1.6rem;
+    font-size: 1.7rem;
   }
   /* Services */
   .services-container {
@@ -124,5 +126,9 @@
   }
   textarea {
     width: 100%;
+  }
+  /* Fotter */
+  .footer-container {
+    grid-template-columns: 1fr;
   }
 }
