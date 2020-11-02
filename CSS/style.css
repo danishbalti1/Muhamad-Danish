@@ -87,10 +87,15 @@ header {
 ul li.active-navbar a {
   color: #28a7e9;
 }
+.nav-social i {
+  color: #fff;
+  font-size: 1.2rem;
+}
 /* Home Section */
 #section-home {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../Images/home-bg.jpg") no-repeat center center/cover;
+    url("../Images/retrosupply-jLwVAUtLOAQ-unsplash\ \(1\).jpg") no-repeat
+      center center/cover;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -98,9 +103,9 @@ ul li.active-navbar a {
   position: relative;
   justify-content: center;
   color: white;
-  animation: showimages 20s 5s ease-in-out  infinite;
+  animation: showimages 20s 5s ease-in-out infinite;
 }
-}
+
 .desig {
   color: #28a7e9;
   font-style: italic;
@@ -393,6 +398,12 @@ p {
   padding: 1rem 5rem;
   transition: all 0.2s ease-in-out;
 }
+.services-group i {
+  font-size: 2.3rem;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem;
+}
 .services-group h3 {
   text-align: start;
   color: #28a7e9;
@@ -470,20 +481,7 @@ footer {
   padding: 1rem;
   font-weight: lighter;
 }
-@keyframes showimages {
-  25% {
-    background: url("../Images/diagoona-bg-2.jpg");
-  }
-  50% {
-    background: url("../Images/diagoona-bg-3.jpg");
-  }
-  75% {
-    background: url("../Images/bg.jpg");
-  }
-  100% {
-    background: url("../Images/diagoona-bg-1.jpg");
-  }
-}
+
 @keyframes heading {
   to {
     transform: translateY(0);
