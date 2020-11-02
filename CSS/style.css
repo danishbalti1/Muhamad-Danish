@@ -98,6 +98,7 @@ ul li.active-navbar a {
       center center/cover;
   height: 90vh;
   display: flex;
+  padding: 0 8rem;
   flex-direction: column;
   align-items: center;
   position: relative;
@@ -191,7 +192,7 @@ section h3 {
   font-size: 1.6rem;
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 2.2rem;
+  padding-bottom: 2.2rem;
 }
 
 /* Skills */
@@ -199,7 +200,7 @@ section h3 {
 .skill-head {
   line-height: 1.5rem;
   display: flex;
-  background: #303030;
+  background: #404040;
   padding-top: 3rem;
   color: white;
   flex-direction: column;
@@ -229,7 +230,7 @@ hr {
 .html {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
@@ -237,56 +238,56 @@ hr {
 .container .lang .css {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
 .container .lang .js {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
 .container .lang .ns {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
 .lang .bostrap {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
 .lang .figma {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
 .lang .c-plus {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
 .lang .photoshop {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
 .lang .java {
   position: relative;
   padding: 12px 130px;
-  background: #ccc;
+  background: #fff;
   border-radius: 2px;
   width: 100%;
 }
@@ -368,10 +369,6 @@ hr {
   background: #28a7e9;
 }
 
-p {
-  color: #28a7e9;
-  font-size: 1.3rem;
-}
 h4 {
   font-size: 1.5rem;
   margin-bottom: 6px;
@@ -380,8 +377,10 @@ h4 {
 p {
   color: #28a7e9;
 }
-
 /* Services  */
+.services {
+  background: #303030;
+}
 .services h1 {
   text-align: center;
   font-size: 2rem;
@@ -392,7 +391,7 @@ p {
   display: flex;
   padding: 3rem;
   line-height: 1.9;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 .services-group {
   padding: 1rem 5rem;
@@ -471,7 +470,6 @@ footer {
   width: 40px;
   padding: 4px;
 }
-
 /* fotter bottom */
 .fotter-bottom p {
   text-align: center;

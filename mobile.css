@@ -48,14 +48,23 @@
   .main-nav ul.social-menu {
     display: none;
   }
+  .main-nav .nav-social {
+    display: none;
+  }
 
   /* Home Section */
-  .home-container {
-    margin-left: 2.5rem;
-    width: 100%;
+  #section-home {
+    padding: 0 2rem;
   }
   .home-container h1 {
     font-size: 2.4rem;
+  }
+  .home-container p {
+    width: 80%;
+    text-align: justify;
+  }
+  .header-span {
+    display: none;
   }
   /* About */
   .about-container {
@@ -76,6 +85,12 @@
     width: 100%;
     padding: 0.3rem 1rem;
     margin: 0.2rem;
+  }
+  /* Skills */
+
+  .skill-head .container {
+    grid-template-columns: 1fr;
+    margin-left: 14rem;
   }
   /* Project Sctin */
   .project-container {
