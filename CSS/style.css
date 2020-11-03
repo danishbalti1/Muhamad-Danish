@@ -33,12 +33,17 @@ html::-webkit-scrollbar-thumb {
 /* menu btn toogler */
 .menu-btn {
   position: absolute;
-  color: #f1f1f1;
   top: 20px;
   z-index: 2;
   display: none;
-  right: 30px;
+  right: 40px;
+  font-size: 1rem;
+  color: #28a7e9;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.main-nav .logo:hover {
+  color: #28a7e9;
 }
 .menu-btn img {
   width: 46px;
